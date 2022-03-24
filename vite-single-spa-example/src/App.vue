@@ -5,7 +5,7 @@
 
 <script>
 import HelloWorld from "./components/HelloWorld.vue";
-import { publicApiFunction } from "@fergmux/vite-single-spa-utility";
+import { publicApiFunction } from "@org/vite-single-spa-utility";
 
 export default {
   name: "App",

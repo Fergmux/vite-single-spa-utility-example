@@ -7,12 +7,9 @@ export default {
     preserveEntrySignatures: true,
   },
   base: "http://localhost:3000",
-  optimizeDeps: {
-    exclude: ["@fergmux/vite-single-spa-utility"],
-  },
   build: {
     rollupOptions: {
-      external: ["@fergmux/vite-single-spa-utility"],
+      external: ["@org/vite-single-spa-utility"],
     },
   },
   plugins: [

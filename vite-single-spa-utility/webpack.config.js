@@ -3,7 +3,7 @@ const singleSpaDefaults = require("webpack-config-single-spa");
 
 module.exports = (webpackConfigEnv, argv) => {
   const defaultConfig = singleSpaDefaults({
-    orgName: "fergmux",
+    orgName: "org",
     projectName: "vite-single-spa-utility",
     webpackConfigEnv,
     argv,

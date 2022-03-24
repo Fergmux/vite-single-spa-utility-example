@@ -1,5 +1,5 @@
 {
-  "name": "@fergmux/vite-single-spa-utility",
+  "name": "@org/vite-single-spa-utility",
   "scripts": {
     "start": "webpack serve --port 8500",
     "start:standalone": "webpack serve --env standalone",
